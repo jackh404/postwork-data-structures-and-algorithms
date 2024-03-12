@@ -1,5 +1,16 @@
 function balancingParentheses(string) {
-  // type your code here
+  let strayOp = 0
+  let strayClos = 0
+  for(let char in string)
+  {
+    if(string[char]==="(") strayOp++
+
+    if(string[char]===")"){
+      if(strayOp) strayOp --
+      else strayClos++
+    }
+  }
+  return strayClos + strayOp
 }
 
 if (require.main === module) {
@@ -22,3 +33,11 @@ module.exports = balancingParentheses;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+// opening, closing = 0
+// loop through string
+// if char is (
+  // opening ++
+// elif char is )
+  // closing ++
+  // return |opening - closing|

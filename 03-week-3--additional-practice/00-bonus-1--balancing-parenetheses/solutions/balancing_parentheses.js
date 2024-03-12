@@ -67,6 +67,9 @@ if (require.main === module) {
 
   console.log("Expecting: 3");
   console.log(balancingParentheses('((('));
+
+  console.log("Expecting: 6????");
+  console.log(balancingParentheses(')))((('));
 }
 
 module.exports = balancingParentheses;
