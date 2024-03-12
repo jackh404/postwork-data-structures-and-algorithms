@@ -98,7 +98,7 @@ the pairing exercises together and give feedback.
 - [x] [Day 2: Recursive Search](./02-week-2--recursion/02-day-2--recursive-search)
 - [x] [Day 3: Recursive Fibonacci Series](./02-week-2--recursion/03-day-3--recursive-fibonacci-series)
 - [x] [Day 4: Recursive Find Shortest String](./02-week-2--recursion/04-day-4--recursive-find-shortest-string)
-- [ ] [Day 5: Recursive Selection Sort](./02-week-2--recursion/05-day-5--recursive-selection-sort)
+- [x] [Day 5: Recursive Selection Sort](./02-week-2--recursion/05-day-5--recursive-selection-sort)
 
 ### Week 3: Additional Practice
 
